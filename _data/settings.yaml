@@ -3,17 +3,17 @@
 metadata:
   # site_url should match your full production URL
   site_url: 'https://halide.netlify.app'
-  site_title: Halide
+  site_title: Lisa Sandtner
   # site subtitles are optional
-  site_subtitle_1: Image Portfolio
-  site_subtitle_2: Sometown, CA
+  site_subtitle_1: Hamburg, Germany
+  site_subtitle_2: Event Photography
   # Home page description, accepts markdown
   site_description: >
-    Halide is a customizable Jamstack portfolio website theme designed for photographers and still image creators. Read the docs at [github.com/danurbanowicz/halide](https://github.com/danurbanowicz/halide)
+    Hand selected events
   # footer contact email
-  site_email: dan.urbanowicz@gmail.com
+  site_email: lisasandtner@icloud.com
   # footer social link (the social title is defined in the i18n section)
-  site_social_url: 'https://github.com/danurbanowicz/halide'
+  site_social_url: 'https://instagram.com/lisa.sandtner'
   # SVG image used for sharing/bookmark icons
   site_icon_svg: /assets/uploads/favicon.svg
   # optional PNG image used for sharing/bookmark icons
@@ -23,10 +23,10 @@ metadata:
   # home page SEO fields
   seo:
     # <title> tag
-    site_title: Halide - Jamstack portfolio theme
+    site_title: Lisa Sandtner – photography
     # meta description
     site_description: >-
-      A customizable, minimalist portfolio website designed for photographers and still image creators.
+      Image portfolio of photographer Lisa Sandtner – Hamburg/Germany
     # Adds a noindex <meta> tag on all site pages, be careful y'all!
     # Instead you can block indexing per-project with no_index: true
     no_index: false
@@ -83,7 +83,7 @@ i18n:
   # any valid ISO language code e.g. en or en-US
   site_language: en
   # single-language translations can be defined here
-  site_social_title: GitHub
+  site_social_title: Instagram
 # Internal config, hidden from Tina CMS
 config:
   # define responsive image widths for project thumbnails and large images
