@@ -10,7 +10,7 @@ config:
     Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 metadata:
-  site_url: 'https://visionary-pastelito-f28f94.netlify.app'
+  site_url: 'https://lisasandtner.netlify.app'
   site_title: Lisa Sandtner
   site_subtitle_1: 'Hamburg, Germany'
   site_subtitle_2: Event Photography
