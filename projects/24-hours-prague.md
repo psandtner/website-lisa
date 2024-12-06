@@ -10,3 +10,4 @@ images:
 date: 2024-12-06T07:58:30.110Z
 ---
 
+Prague, concert and back in 24 hours. Sponsored by FlixBus.
