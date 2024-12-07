@@ -12,10 +12,10 @@ config:
 metadata:
   site_url: 'https://lisasandtner.netlify.app'
   site_title: Lisa Sandtner
-  site_subtitle_1: 'Hamburg, Germany'
-  site_subtitle_2: Event Photography
+  site_subtitle_1: Photography
+  site_subtitle_2: 'Hamburg, Germany'
   site_description: |
-    Hand selected events
+    Hand selected projects
   site_email: lisasandtner@icloud.com
   site_social_url: 'https://instagram.com/lisa.sandtner'
   site_icon_svg: /assets/uploads/favicon.svg
@@ -23,7 +23,7 @@ metadata:
   site_ga4_id: ''
   seo:
     site_title: Lisa Sandtner – photography
-    site_description: Image portfolio of photographer Lisa Sandtner – Hamburg/Germany
+    site_description: Projects of photographer Lisa Sandtner – Hamburg, Germany
     no_index: false
 theme:
   theme_layout:
