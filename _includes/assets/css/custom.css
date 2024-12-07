@@ -1,0 +1,7 @@
+html[data-current="imprint"] h1, h2 {
+    font-weight: calc(var(--font-weight) * 1.5);
+}
+
+html[data-current="imprint"] h1 {
+    font-size: calc(var(--font-size-base) * var(--font-scale) / 80);
+}
