@@ -160,6 +160,31 @@ export default defineConfig({
           },
         ],
       },
+      // Imprint File Collection
+      {
+        label: 'Imprint',
+				name: 'imprint',
+				path: '/',
+        match: {
+          include: "imprint",
+        },
+				format: 'md',
+				fields: [
+					{
+            type: "rich-text",
+            name: "body",
+            label: "Imprint",
+            isBody: true,
+            toolbarOverride: ["heading", "bold", "italic"]
+          },
+				],
+				ui: {
+					allowedActions: {
+						create: false,
+						delete: false,
+					},
+				},
+      },
       // Settings File Collection
       {
         name: "settings",
