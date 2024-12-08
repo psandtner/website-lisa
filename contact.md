@@ -10,4 +10,5 @@ Lessingstraße 6\
 Germany
 
 Phone: [+49 151 12 773 721](tel:+4915112773721)\
-Email: [lisa@lisasandtner.de](mailto:lisa@lisasandtner.de)
+Email: [{{ settings.metadata.site_email }}](mailto:{{ settings.metadata.site_email }})\
+Instagram: <a href="{{ settings.metadata.site_social_url }}" target="_blank" rel="noopener">{{ settings.metadata.site_social_url }}</a>

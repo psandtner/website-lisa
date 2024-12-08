@@ -611,12 +611,6 @@ export default defineConfig({
                 label: "Site Language",
                 description: "Your site's ISO 639-1 two character language code. Default: en",
               },
-              {
-                type: "string",
-                name: "site_social_title",
-                label: "Footer Social Title",
-                description: "The title used for footer social profile link text e.g. Instagram",
-              },
             ],
           },
         ],
