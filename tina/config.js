@@ -248,12 +248,6 @@ export default defineConfig({
                 description: "Your website's contact email address, visible in the site footer.",
               },
               {
-                type: "string",
-                name: "site_social_url",
-                label: "Site Social URL",
-                description: "Your primary social media profile URL, visible in the site footer e.g. https://instagram.com/johndoe",
-              },
-              {
                 type: "image",
                 name: "site_icon_svg",
                 label: "Site Favicon SVG",
