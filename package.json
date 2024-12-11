@@ -1,6 +1,7 @@
 {
   "name": "halide",
   "version": "1.0.0",
+  "type": "module",
   "description": "Halide is a new, minimalist, responsive portfolio website designed for photographers and still image creators",
   "scripts": {
     "build": "npx @11ty/eleventy",

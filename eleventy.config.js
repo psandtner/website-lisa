@@ -1,16 +1,16 @@
-const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-js");
-const htmlmin = require("html-minifier");
-const yaml = require("js-yaml");
-const slugify = require("slugify");
-const eleventyHelmetPlugin = require("eleventy-plugin-helmet");
-const EleventyFetch = require("@11ty/eleventy-fetch");
-const Image = require("@11ty/eleventy-img");
-const MarkdownIt = require("markdown-it");
+import { DateTime } from "luxon";
+import CleanCSS from "clean-css";
+import UglifyJS from "uglify-js";
+import htmlmin from "html-minifier";
+import yaml from "js-yaml";
+import slugify from "slugify";
+import eleventyHelmetPlugin from "eleventy-plugin-helmet";
+import EleventyFetch from "@11ty/eleventy-fetch";
+import Image from "@11ty/eleventy-img";
+import MarkdownIt from "markdown-it";
 const mdRender = new MarkdownIt();
 
-module.exports = function(eleventyConfig) {
+export default async function (eleventyConfig) {
 
   eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
     return mdRender.render(rawString);
