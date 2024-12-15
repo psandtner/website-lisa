@@ -8,6 +8,28 @@ description: |
 
   Prague 03/12/2024
 images:
+  - src: /assets/uploads/Boy Bleach/IMG_6987.jpeg
+    caption: >-
+      Singer Louis Fisher shot in black and white singing into the microphone
+      with arms up
+  - src: /assets/uploads/Boy Bleach/IMG_6978.jpeg
+    caption: 'Nick Willis shot in black and white playing guitar '
+  - src: /assets/uploads/Boy Bleach/IMG_6958.jpeg
+    caption: Silhouette of guitarist James Willis shot in black and white
+  - src: /assets/uploads/Boy Bleach/IMG_6947.jpeg
+    caption: >-
+      Singer Louis Fisher shot from the side pointing in to the crowd with a
+      light beam coming from the back in black and white
+  - src: /assets/uploads/Boy Bleach/IMG_6942.jpeg
+    caption: Singer Louis Fisher shot from the back in black and white
+  - src: /assets/uploads/Boy Bleach/IMG_6933.jpeg
+    caption: 'JJ on bass shot in black and white in a frog perspective '
+  - src: /assets/uploads/Boy Bleach/IMG_6901.jpeg
+    caption: >-
+      Jimi Fisher on drums shot in black in white, three light beams in the
+      background shining down
+  - src: /assets/uploads/Boy Bleach/IMG_6889.jpeg
+    caption: 'Singer Louis Fisher singing with a guitar, lightbeam coming from the back'
   - src: /assets/uploads/Boy Bleach/IMG_6880.jpeg
     caption: >-
       Singer Louis Fisher singing in the microphone shot in black and white from
