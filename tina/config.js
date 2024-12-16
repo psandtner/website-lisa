@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import slugify from "slugify";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -44,9 +45,7 @@ export default defineConfig({
           filename: {
             readonly: false,
             slugify: (values) => {
-              return `${values?.title
-                ?.toLowerCase()
-                .replace(/ /g, '-')}`
+              return `${slugify(String(values?.title), {lower: true, replacement: "-", strict: true})}`
             },
           },
         },
@@ -64,6 +63,14 @@ export default defineConfig({
             description: "The project's title",
             isTitle: true,
             required: true,
+            ui: {
+              validate: (value) => {
+                const lengthOfTitle = value?.length || 0
+                if(lengthOfTitle == 0 ){
+                  return 'The title cannot be empty'
+                }
+              }
+            }
           },
           {
             type: "rich-text",
