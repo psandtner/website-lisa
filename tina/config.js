@@ -18,6 +18,7 @@ export default defineConfig({
       mediaRoot: "assets/uploads",
       publicFolder: "",
     },
+    accept: ['image/jpeg'],
   },
   search: {
     tina: {
