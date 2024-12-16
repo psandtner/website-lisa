@@ -49,6 +49,9 @@ export default defineConfig({
               return `${slugify(String(values?.title), {lower: true, replacement: "-", strict: true})}`
             },
           },
+          allowedActions: {
+            createNestedFolder: false,
+          },
         },
         fields: [
           {
