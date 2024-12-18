@@ -10,7 +10,9 @@ section: project
     <div class="grid grid--intro">
 
       <h1 class="grid__item--span-4 mw--readable">{{ title }}</h1>
-      <div class="grid__item--span-4 mw--readable markdown">{{ description | renderUsingMarkdown | safe }}</div>
+      {% if description %}
+        <div class="grid__item--span-4 mw--readable markdown"> {{ description | renderUsingMarkdown | safe }}</div>
+      {% endif %}
         
       {% if year and settings.theme.theme_features.show_project_year %}
         <p class="grid__item--span-4 mw--readable mb--0">

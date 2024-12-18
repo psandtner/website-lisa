@@ -30,6 +30,8 @@
   {% else %}
     <link rel="canonical" href="{{ settings.metadata.site_url | url }}{{ page.url }}">
   {% endif %}
+    
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="{{ settings.metadata.site_title }}">
 
   {# Set theme and base styles #}
   {% set css %}

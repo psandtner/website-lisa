@@ -9,6 +9,7 @@ import EleventyFetch from "@11ty/eleventy-fetch";
 import Image from "@11ty/eleventy-img";
 import MarkdownIt from "markdown-it";
 const mdRender = new MarkdownIt();
+import pluginRss from "@11ty/eleventy-plugin-rss";
 
 export default async function (eleventyConfig) {
 
@@ -109,6 +110,9 @@ export default async function (eleventyConfig) {
   // Add 11ty helmet plugin, for appending elements to <head>
   eleventyConfig.addPlugin(eleventyHelmetPlugin);
 
+  // Add eleventy-plugin-rss
+  eleventyConfig.addPlugin(pluginRss);
+
   // Add support for YAML data files with .yaml extension
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
@@ -118,7 +122,7 @@ export default async function (eleventyConfig) {
   // The projects collection, sorted by the numerical position value and then by date
   eleventyConfig.addCollection("projects", function(collectionApi) {
     return collectionApi.getFilteredByGlob("projects/*.md")
-      //.filter(project => !Boolean(project.data.draft))
+      .filter(project => !Boolean(project.data.draft))
       .sort((a, b) => b.data.position - a.data.position);
   });
 
@@ -168,6 +172,9 @@ export default async function (eleventyConfig) {
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if (outputPath instanceof String === false) {
+      return content;
+    }
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,

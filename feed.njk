@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ settings.metadata.i18n.site_language or page.lang }}">
+  <title>{{ settings.metadata.site_title }}</title>
+  <link href="{{ permalink | htmlBaseUrl(settings.metadata.site_url) }}" rel="self" />
+  <link href="{{ settings.metadata.site_url | addPathPrefixToFullUrl }}" rel="alternate" type="text/html"/>
+  <updated>{{ collections.projects | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ settings.metadata.site_url | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ settings.metadata.site_author_name }}</name>
+  </author>
+  {%- for project in collections.projects | reverse %}
+  {%- set absolutePostUrl %}{{ project.url | htmlBaseUrl(settings.metadata.site_url) }}{% endset %}
+  <entry>
+    <title>{{ project.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ project.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}jji</id>
+    <content type="html">{{ project.content | renderTransforms(project.data.page, settings.metadata.site_url) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

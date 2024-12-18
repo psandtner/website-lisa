@@ -12,6 +12,7 @@ config:
 metadata:
   site_url: 'https://lisasandtner.netlify.app'
   site_title: Lisa Sandtner
+  site_author_name: Lisa Sandtner
   site_subtitle_1: Photography
   site_subtitle_2: 'Hamburg, Germany'
   site_description: |
