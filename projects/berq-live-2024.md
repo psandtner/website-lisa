@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Berq Live 2024
 description: |
   11/12/2024 Docks, Hamburg
