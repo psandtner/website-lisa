@@ -11,19 +11,17 @@ config:
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 metadata:
   site_url: 'https://lisasandtner.netlify.app'
-  site_title: Lisa Sandtner
-  site_author_name: Lisa Sandtner
+  site_title: Charlie Sandtner
   site_subtitle_1: Photography
   site_subtitle_2: 'Hamburg, Germany'
-  site_description: |
-    Hand selected projects
+  site_description: ''
   site_email: lisasandtner@icloud.com
   site_icon_svg: /assets/uploads/favicon.svg
   site_icon_png: ''
   site_ga4_id: ''
   seo:
     site_title: Lisa Sandtner – photography
-    site_description: Projects of photographer Lisa Sandtner – Hamburg, Germany
+    site_description: 'Projects of photographer Lisa Sandtner – Hamburg, Germany'
     no_index: false
 theme:
   theme_layout:
