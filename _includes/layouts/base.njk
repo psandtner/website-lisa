@@ -4,7 +4,10 @@
 	{% include "components/head.njk" %}
 
 	<body class="grid grid--body">
-
+		<is-land on:media="(prefers-reduced-motion: no-preference)">
+			<snow-fall></snow-fall>
+		</is-land>
+		
 		{% include "components/header.njk" %}
 
 		<main class="p--2 pb--8">
