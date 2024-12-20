@@ -236,6 +236,13 @@ export default defineConfig({
               },
               {
                 type: "string",
+                name: "site_author_name",
+                label: "Site Author",
+                required: true,
+                description: "The author of the website",
+              },
+              {
+                type: "string",
                 name: "site_subtitle_1",
                 label: "Site Subtitle",
                 description: "Optional text shown after the website title, often used for a job title e.g. Photographer",
