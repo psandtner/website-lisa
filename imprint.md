@@ -15,7 +15,7 @@ Germany
 ## Contact:
 
 Phone: [+49 151 12 773 721](tel:+4915112773721)\
-Email: [lisa@lisasandtner.de](mailto:lisa@lisasandtner.de)
+Email: [lisasandtner@icloud.com](mailto:lisasandtner@icloud.com)
 
 ## Responsible for the content according to § 55 Abs. 2 RStV:
 
