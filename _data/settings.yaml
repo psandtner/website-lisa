@@ -14,7 +14,8 @@ metadata:
   site_title: Charlie Sandtner
   site_subtitle_1: Photography
   site_subtitle_2: 'Hamburg, Germany'
-  site_description: ''
+  site_description: |
+    Recent Events 
   site_email: lisasandtner@icloud.com
   site_icon_svg: /assets/uploads/favicon.svg
   site_icon_png: ''
