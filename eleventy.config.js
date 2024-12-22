@@ -223,8 +223,6 @@ export default async function (eleventyConfig) {
 
   // Copy folders or static assets e.g. images to site output
   eleventyConfig.addPassthroughCopy({"assets/uploads/favicon.svg" : "/favicon.svg"});
-  eleventyConfig.addPassthroughCopy( {"node_modules/@zachleat/snow-fall/snow-fall.js" : "/js/snow-fall.js",});
-  eleventyConfig.addPassthroughCopy( {"node_modules/@11ty/is-land/is-land.js" : "/js/is-land.js",});
 
   // Disable 11ty dev server live reload when using CMS locally
   eleventyConfig.setServerOptions({
