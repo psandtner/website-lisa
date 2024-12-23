@@ -4,6 +4,20 @@ title: Noah Kahan Summer 2024
 description: |
   26/08/2024 Stadtpark Open Air, Hamburg
 images:
+  - src: /assets/uploads/Noah Kahan 2024/IMG_4464.jpeg
+    caption: 'Noah Kahan with a red guitar, dark almost black background'
+  - src: /assets/uploads/Noah Kahan 2024/IMG_4426.jpeg
+    caption: >-
+      Noah Kahan standing on the stage with his guitar looking back to the stage
+      smiling, crowd in the background
+  - src: /assets/uploads/Noah Kahan 2024/IMG_4420.jpeg
+    caption: >-
+      Noah Kahan singing in his microphone while playing guitar, eyes closed
+      with trees and sky in the background
+  - src: /assets/uploads/Noah Kahan 2024/IMG_4416.jpeg
+    caption: >-
+      Microphone with treetops on the lower half and sky with clouds in the
+      background
   - src: /assets/uploads/Noah Kahan 2024/IMG_4474.jpeg
     caption: 'Close up of Noah Kahan playing his guitar '
   - src: /assets/uploads/Noah Kahan 2024/IMG_0470.jpg
