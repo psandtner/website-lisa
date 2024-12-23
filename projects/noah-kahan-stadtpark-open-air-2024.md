@@ -4,6 +4,8 @@ title: Noah Kahan Summer 2024
 description: |
   26/08/2024 Stadtpark Open Air, Hamburg
 images:
+  - src: /assets/uploads/Noah Kahan 2024/IMG_4474.jpeg
+    caption: 'Close up of Noah Kahan playing his guitar '
   - src: /assets/uploads/Noah Kahan 2024/IMG_0470.jpg
     caption: >-
       Noah Kahan sitting center stage with his guitar, Noah Levine on his right
