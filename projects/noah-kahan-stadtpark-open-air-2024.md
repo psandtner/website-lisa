@@ -1,6 +1,7 @@
 ---
 draft: true
-title: 'Noah Kahan, Stadtpark Open Air 2024'
+title: Noah Kahan Summer 2024
+description: ''
 date: 2024-12-23T22:36:31.047Z
 ---
 
