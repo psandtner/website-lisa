@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Noah Kahan Summer 2024
 description: |
   26/08/2024 Stadtpark Open Air, Hamburg
