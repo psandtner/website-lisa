@@ -1,8 +1,8 @@
 ---
 draft: false
-title: 'Berq, Live 2024 !'
+title: 'Berq, Live 2024'
 description: |
-  11/12/2024 Docks, Hamburg
+  11/12/2024 Docks, Hamburg wow
 images:
   - src: /assets/uploads/Berq 2024/Berq.jpeg
     caption: 'Felix Dautzenberg’s silhouette (Berq) behind a screen singing into the microphone '
