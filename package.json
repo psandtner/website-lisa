@@ -29,16 +29,16 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@netlify/plugin-lighthouse": "^6.0.4",
-    "@tinacms/cli": "^2.0.5",
+    "@tinacms/cli": "^2.1.7",
     "clean-css": "^5.3.3",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.3.1",
     "eleventy-plugin-helmet": "^0.2.2",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.1",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.1.1",
     "netlify-plugin-11ty": "^1.5.0",
     "netlify-plugin-csp-generator": "^1.6.1",
-    "tinacms": "^3.1.2",
+    "tinacms": "^3.5.1",
     "uglify-js": "^3.19.3"
   }
 }
