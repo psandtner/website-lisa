@@ -6,6 +6,8 @@ description: |
 images:
   - src: /assets/uploads/Been%20Stellar%202024/IMG_6088.jpeg
     caption: two white guitars in purple light standing on stage with scream written on on elf the amplifiers
+  - src: /assets/uploads/Been%20Stellar%202024/IMG_6116.jpeg
+    caption: bassist brunstein on the right side with purple light coming from the left
 date: 2026-05-02T10:26:32.413Z
 ---
 
