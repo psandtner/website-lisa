@@ -8,6 +8,8 @@ images:
     caption: two white guitars in purple light standing on stage with scream written on on elf the amplifiers
   - src: /assets/uploads/Been%20Stellar%202024/IMG_6116.jpeg
     caption: bassist brunstein on the right side with purple light coming from the left
+  - src: /assets/uploads/Been%20Stellar%202024/IMG_6146.jpeg
+    caption: singer slocum with hand on the mic
 date: 2026-05-02T10:26:32.413Z
 ---
 
