@@ -12,6 +12,8 @@ images:
     caption: singer slocum with hand on the mic
   - src: /assets/uploads/Been Stellar 2024/IMG_6141.jpeg
     caption: brunstein on the left and slocum on the right behind brunstein
+  - src: /assets/uploads/Been%20Stellar%202024/IMG_6112.jpeg
+    caption: nix
 date: 2026-05-02T10:26:32.413Z
 ---
 
