@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Florence Road Pop Up
+title: 'Florence Road, Pop Up Acoustic '
 description: |
   14/07/2026 Berlin
 images:
