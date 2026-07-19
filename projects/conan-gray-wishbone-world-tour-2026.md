@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Conan Gray Wishbone World Tour 2026
+title: 'Conan Gray, Wishbone World Tour 2026'
 description: |
   21/05/2026 Hamburg
 images:
