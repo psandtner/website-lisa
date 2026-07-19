@@ -8,6 +8,8 @@ images:
     caption: 'singer zach lount singing into the mic with a guitar '
   - src: /assets/uploads/KNO Leeds/KnoLeeds 3.jpg
     caption: bassist rob gration bent backwards while playing bass
+  - src: /assets/uploads/KNO%20Leeds/KnoLeeds%207.jpg
+    caption: Guitarist Joe Martin playing guitar
 date: 2026-05-02T10:48:28.779Z
 ---
 
