@@ -8,6 +8,8 @@ images:
     caption: yungblud on crowds hands
   - src: /assets/uploads/hurricane/FlorenceRoadHurricane265.jpg
     caption: 'lily and Emma from florence road '
+  - src: /assets/uploads/hurricane/FlorenceRoadHurricane26.jpg
+    caption: ailbhe from Florence road on drums
 date: 2026-07-23T10:43:42.107Z
 ---
 
