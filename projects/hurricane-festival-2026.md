@@ -12,8 +12,6 @@ images:
     caption: Theo from Wolf Alice playing bass
   - src: /assets/uploads/hurricane/KasiAntoniusHurricane262.jpg
     caption: kasi on stage in a red t-shirt and light blue jorts
-  - src: /assets/uploads/hurricane/FlorenceRoadHurricane26.jpg
-    caption: ailbhe from Florence road on drums
   - src: /assets/uploads/hurricane/RitterLeanHurricane262.jpg
     caption: ritter lean
   - src: /assets/uploads/hurricane/YungbludHurricane265.jpg
@@ -27,7 +25,7 @@ images:
   - src: /assets/uploads/hurricane/KasiAntoniusHurricane261.jpg
     caption: Antonius in a white tanktop with light blue jorts infant of a light purple background on stage
   - src: /assets/uploads/hurricane/FlorenceRoadHurricane26.jpg
-    caption: 'Hannah from Florence road playing drums '
+    caption: ailbhe from Florence road on drums
 date: 2026-07-23T10:43:42.107Z
 ---
 
