@@ -62,6 +62,11 @@ export default async function (eleventyConfig) {
     // Remove it from the image path if it exists
     src = src.startsWith("/") ? src.slice(1) : src;
 
+    // Tina CMS/browser URL-encodes special characters (e.g. spaces as %20)
+    // in the path, but the actual file on disk has the raw characters.
+    // Decode it so fs.statSync finds the real file.
+    src = decodeURIComponent(src);
+
     let metadata = await Image(src, {
       widths: outputWidths,
       sharpJpegOptions: { quality: outputQualityJpeg },
